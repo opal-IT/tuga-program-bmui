@@ -1,0 +1,75 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+<div class="container">
+	<div class="header">
+		<h1 class="judul">Submission</h1>
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#Copyright">Copyright</a></li>
+		</ul>
+	</div>
+
+	<div class="hero" id="home">
+		<img src="{% static "img/opal1.jpg" %}" alt="opal">
+		<h1>Febriansyah Naufal Akbar</h1>
+		<p>Student</p>
+	</div>
+
+	<div class="content cf">
+		<div class="main" id="about">
+			<h2>ABOUT</h2>
+			<p>Nama saya Febriansyah Naufal Akbar mahasiswa S1 Teknik Telekomunikasi Institut Teknologi Sumatera. Berjualan dan bekerja sama dalam tim adalah salah satu keahlian saya, dan saya bertekad akan mampu mengalahkan Google dan MIcrosoft dengan perusahaan yang akan dirikan nanti.</p><br>
+
+			<h2>PENDIDIKAN</h2>
+			<p>INSTITUT TEKNOLOGI SUMATERA<br>S1 Telekomunikasi <br>2019 - Current</p>
+			<p>SMA NEGERI 1 SETU<br>2016 - 2019</p>
+			<p>SMP NEGERI 1 SETU<br>2013 - 2016</p>
+			<p>SD TELAJUNG 02<br>2007 - 2013</p><br>
+
+			<h2>ORGANISASI</h2>
+			<p>UKM KMPA</p>
+			<p>Chair of the telecommunications force 2019</p>
+			<p>Volounter Lucstrum Perdana 5th ITERA</p>
+		</div>
+		<div class="sidebar">
+			<h3>Profile</h3>
+			<p>Nama : Febriansyah Naufal Akbar <br>TTL : Bekasi, 14 Februari 2001 <br> Alamat	: Graha Mustika Media Blok H5 No4 Jalan Sawo 4, Setu, Bekasi.</p><br>
+
+			<h3>Skills</h3>
+			<ul>
+				<li><p>leadership</p></li>
+				<li><p>Marketing</p></li>
+				<li><p>Editing Foto</p></li>
+				<li><p>Negotiation</p></li>
+				<li><p>Organisasi</p></li>
+			</ul><br>
+
+			<h3>Contact</h3>
+			<img src="{% static "img/wa.png" %}">
+			<p>0896-4355-9542</p>
+			<img src="{% static "img/gmail.png" %}">
+			<p>anaufalakbar35@gmail.com</p><br>
+
+			<h3>Media Sosial</h3>
+			<img src="{% static "img/fb.png" %}">
+			<p><a href="fb.me/naufalakk">fb.me/naufalakk</a></p>
+			<img src="{% static "img/ig.png" %}">
+			<p><a href="https://www.instagram.com/case.millenial/">instagram.com/case.millenial/</a></p>
+		</div>
+	</div>
+
+	<div class="footer" id="Copyright">
+		<p class="copy">Copyright 2019. Febriansyah Naufal Akbar</p>
+	</div>
+</div>
+</body>
+</html>
